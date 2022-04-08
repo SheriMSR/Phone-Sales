@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>PhoneSales_WinForms</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business Object\BusinessObject.csproj" />
+    <ProjectReference Include="..\Data Access\DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
